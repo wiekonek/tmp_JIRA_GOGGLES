@@ -8,7 +8,6 @@ import {Card} from "./card";
   selector: 'card',
   template: `<div>
       <h3>{{model.key}}#{{model.name}}</h3> <br/>
-      <img src={{model.avatarUrls.48x48}}/>
     </div>`,
 })
 
